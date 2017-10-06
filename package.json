@@ -35,7 +35,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "prettier": "prettier --single-quote --print-width 80 --trailing-comma all --write './**/*.js'",
+    "prettier": "prettier --single-quote --print-width 80 --trailing-comma all --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
