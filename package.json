@@ -6,7 +6,26 @@
   "dependencies": {
     "gatsby": "^1.9.45",
     "gatsby-link": "^1.6.17",
-    "gatsby-plugin-react-helmet": "^1.0.5"
+    "gatsby-plugin-react-helmet": "^1.0.5",
+    "gatsby-plugin-catch-links": "^1.0.5",
+    "gatsby-plugin-google-analytics": "^1.0.4",
+    "gatsby-plugin-manifest": "^1.0.4",
+    "gatsby-plugin-postcss-sass": "^1.0.3",
+    "gatsby-plugin-feed": "^1.3.5",
+    "gatsby-plugin-sitemap": "^1.2.2",
+    "gatsby-plugin-offline": "^1.0.4",
+    "gatsby-plugin-preact": "^1.0.0",
+    "gatsby-plugin-sharp": "^1.6.2",
+    "gatsby-remark-copy-linked-files": "^1.5.2",
+    "gatsby-remark-images": "^1.5.4",
+    "gatsby-remark-prismjs": "^1.2.1",
+    "gatsby-remark-responsive-iframe": "^1.4.3",
+    "gatsby-remark-smartypants": "^1.4.3",
+    "gatsby-source-filesystem": "^1.4.3",
+    "gatsby-transformer-remark": "^1.7.1",
+    "gatsby-transformer-sharp": "^1.6.1",
+    "typeface-roboto": "latest",
+    "lodash": "^4.17.2"
   },
   "keywords": [
     "gatsby"
@@ -16,10 +35,17 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
+    "prettier": "prettier --single-quote --print-width 80 --trailing-comma all --write './**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-equimper": "^2.2.1",
+    "eslint-config-prettier": "^2.6.0",
+    "file-loader": "^1.1.5",
+    "gh-pages": "^1.0.0",
+    "lost": "^8.2.0",
+    "postcss-pxtorem": "^4.0.1",
     "prettier": "^1.6.1"
   }
 }
